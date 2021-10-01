@@ -10,4 +10,3 @@ int main() {
 	printf("%lf", sum);
 	return 0;
 }
-

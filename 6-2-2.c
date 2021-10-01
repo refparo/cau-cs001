@@ -2,22 +2,16 @@
 
 void real_main() {
 	int n;
-	scanf("%d", n);
-	char str[64] = {0};
-	int i = 63;
+	scanf("%d", &n);
+	char str[21] = {0};
+	int i = 20;
 	while (n > 0) {
-		str[i] = '0' + (char) (n % 10);
-		str[i - 1] = '*';
+		str[i] = '*';
+		str[i - 1] = '0' + (char) (n % 10);
 		n /= 10;
 		i -= 2;
 	}
-	str[i + 1] = 0;
-	i = 0;
-	while (str[63 - i] != 0) {
-		str[i] = str[63 - i];
-		i++;
-	}
-	printf("%s", str);
+	printf("%s", str + i + 1);
 }
 
 int main() {

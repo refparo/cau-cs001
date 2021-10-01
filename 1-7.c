@@ -6,4 +6,3 @@ int main() {
 	printf("%d", (a + b) * (a - b));
 	return 0;
 }
-

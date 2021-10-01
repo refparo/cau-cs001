@@ -14,4 +14,3 @@ int main() {
 	printf("max=%d\n", c);
 	return 0;
 }
-

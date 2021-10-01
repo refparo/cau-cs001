@@ -7,4 +7,3 @@ int main() {
 	printf("%.2lf", p * (p - a) * (p - b) * (p - c));
 	return 0;
 }
-

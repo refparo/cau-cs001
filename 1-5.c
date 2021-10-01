@@ -6,4 +6,3 @@ int main() {
 	printf("%d", (a + b) * 5);
 	return 0;
 }
-

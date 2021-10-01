@@ -9,4 +9,3 @@ int main() {
 	printf("%.6lf", m);
 	return 0;
 }
-

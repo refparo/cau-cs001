@@ -7,4 +7,3 @@ int main() {
 	printf("c=%.2lf", c);
 	return 0;
 }
-

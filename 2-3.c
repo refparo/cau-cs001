@@ -12,4 +12,3 @@ int main() {
 	printf("%.2lf", m);
 	return 0;
 }
-
