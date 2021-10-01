@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-// Õ·×ªÏà³ý·¨ 
+// Õ·×ªï¿½ï¿½ï¿½ï¿½ï¿½ 
 int gcd(int x, int y) {
-	int temp;
-	if (x < y) {
-		temp = x; x = y; y = temp;
-	}
-	for (temp = x % y; temp != 0; temp = x % y) {
-		x = y; y = temp;
-	}
-	return y;
+  int temp;
+  if (x < y) {
+    temp = x; x = y; y = temp;
+  }
+  for (temp = x % y; temp != 0; temp = x % y) {
+    x = y; y = temp;
+  }
+  return y;
 }
 
 int lcm(int x, int y) {
-	return x * y / gcd(x, y);
+  return x * y / gcd(x, y);
 }
 
 int main() {
-	int x, y;
-	scanf("%d %d", &x, &y);
-	printf("%d %d", gcd(x, y), lcm(x, y));
-	return 0;
+  int x, y;
+  scanf("%d %d", &x, &y);
+  printf("%d %d", gcd(x, y), lcm(x, y));
+  return 0;
 }
