@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// շת����� 
+// 辗转相除法
 int gcd(int x, int y) {
   int temp;
   if (x < y) {
