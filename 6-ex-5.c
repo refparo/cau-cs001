@@ -11,7 +11,7 @@ int main() {
   int num;
   //printf("Please input a string.\n");
   //printf("The string can store %d character:", SIZE);
-  gets(str);
+  scanf("%s", str);
   num = numbers(str);
   printf("There are %d numbers in \"%s\"", num, str);
   return 0;

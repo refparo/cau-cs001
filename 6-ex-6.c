@@ -5,7 +5,7 @@
 int main() {
   void GetLetters(char s[]);
   char str[100];
-  gets(str);
+  scanf("%s", str);
   GetLetters(str);
   printf("%s", str);
   return 0; 

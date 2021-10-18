@@ -14,7 +14,9 @@ char* max(char* x, char* y) {
 
 int main() {
   char str1[128], str2[128], str3[128];
-  gets(str1); gets(str2); gets(str3);
+  scanf("%s", str1);
+  scanf("%s", str2);
+  scanf("%s", str3);
   printf("%s", max(max(str1, str2), str3));
   return 0;
 }

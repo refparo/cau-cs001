@@ -6,7 +6,7 @@ int cptoi(char *c) {
 
 int main() {
   char s[14];
-  gets(s);
+  scanf("%s", s);
   int id = (cptoi(s)
     + 2 * cptoi(s + 2) + 3 * cptoi(s + 3) + 4 * cptoi(s + 4)
     + 5 * cptoi(s + 6) + 6 * cptoi(s + 7) + 7 * cptoi(s + 8)

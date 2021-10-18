@@ -2,7 +2,7 @@
 
 int main() {
   char str[128];
-  gets(str);
+  scanf("%s", str);
   int i;
   for (i = 0; str[i] != 0; i++)
     if (str[i] == 'a' || str[i] == 'e'

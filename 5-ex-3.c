@@ -2,7 +2,7 @@
 
 int main() {
   char str[128];
-  gets(str);
+  scanf("%s", str);
   int in_word = str[0] != ' ';
   int count = 0;
   int i;

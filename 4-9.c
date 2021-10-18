@@ -4,7 +4,7 @@
 int main() {
   int num;
   scanf("%d", &num);
-  int i; int max = floor(sqrt(num));
+  int i; int max = sqrt(num);
   for (i = 2; i <= max; i++)
     if (num % i == 0) {
       printf("n");

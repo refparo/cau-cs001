@@ -12,7 +12,7 @@ int bin_byte(char* str) {
 
 int main() {
   char str[33];
-  gets(str);
+  scanf("%s", str);
   printf("%d.%d.%d.%d",
     bin_byte(str), bin_byte(str + 8),
     bin_byte(str + 16), bin_byte(str + 24));

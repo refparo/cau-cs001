@@ -2,7 +2,7 @@
 
 int main() {
   char str[128];
-  gets(str);
+  scanf("%s", str);
   int digit = 0, space = 0, other = 0;
   int i;
   for(i = 0; str[i] != 0; i++)

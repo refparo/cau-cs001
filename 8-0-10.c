@@ -6,7 +6,7 @@ int main() {
   void copystr(char *, char *, int);
   int m;
   char str1[20], str2[20];
-  gets(str1);
+  scanf("%s", str1);
   scanf("%d", &m);
   if (strlen(str1) < m) printf("input error!");
   else {

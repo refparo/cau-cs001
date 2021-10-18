@@ -5,7 +5,7 @@ int main() {
   scanf("%d %d %d %d %d %d %d %d %d %d",
     &xs[0], &xs[1], &xs[2], &xs[3], &xs[4],
     &xs[5], &xs[6], &xs[7], &xs[8], &xs[9]);
-  int max = -0x80000000, snd = -0x80000000;
+  int max = -0x7fffffff, snd = -0x7fffffff;
   int i;
   for (i = 0; i < 10; i++)
     if (xs[i] > max) {

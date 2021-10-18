@@ -2,7 +2,7 @@
 
 int main() {
   char str[128];
-  gets(str);
+  scanf("%s", str);
   char search = getchar();
   int i = 0;
   while (str[i] != 0 && str[i] != search) i++;

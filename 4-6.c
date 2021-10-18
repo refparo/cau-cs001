@@ -3,7 +3,7 @@
 int main() {
   int n;
   scanf("%d", &n);
-  int p = 0, q = 0, r = 1, s;
+  int p = 0, q = 0, r = 1;
   int i;
   for (i = 0; i < n; i++) {
     r = p + q;

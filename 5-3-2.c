@@ -2,7 +2,8 @@
 
 int main() {
   char s[40], t[20];
-  gets(s); gets(t);
+  scanf("%s", s);
+  scanf("%s", t);
   int i = 0;
   while (s[i]) i++;
   int j = 0;
