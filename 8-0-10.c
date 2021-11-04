@@ -17,9 +17,9 @@ int main() {
 }
 //StudybarCommentEnd
 
-void copystr(char* src, char* res, int start) {
+void copystr(char* src, char* dest, int start) {
   int i;
   for (i = 0; src[i + start - 1] != 0; i++)
-    res[i] = src[i + start - 1];
-  res[i] = 0;
+    dest[i] = src[i + start - 1];
+  dest[i] = 0;
 }
